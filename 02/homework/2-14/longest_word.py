@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # coding=utf-8
 
+# Znaleźć: (a) najdłuższy wyraz, (b) długość najdłuższego wyrazu w stringu line.
+
 text = "Python Yeti Tiger Hippo Orangutan Narwhal"
 words = text.split()
 longest_word = max(words, key=len)

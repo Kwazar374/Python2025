@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # coding=utf-8
 
+# Znaleźć łączną długość wyrazów w stringu line. Wskazówka: można skorzystać z funkcji sum().
+
 text = "Python Yeti Tiger Hippo Orangutan Narwhal"
 
 words = text.split()

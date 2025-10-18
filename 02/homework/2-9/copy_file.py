@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # coding=utf-8
 
+# Napisać funkcję wykonującą kopiowanie pliku, która pomija linie rozpoczynające się od znaku # (linie z komentarzami).
+
 import os
 
 def copy_file_without_comments(source_path: str, destination_path: str) -> None:
